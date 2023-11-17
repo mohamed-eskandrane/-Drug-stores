@@ -901,6 +901,7 @@ LoadCustomers();
 }
 
 function FillterustomersToTable(){
+  let UserCode=localStorage.getItem("UserCode");
   let CustomerName,Mobile,Gover,City,Town,Customer,Mob,Gov,Cit,Tow;
   Customer=document.getElementById("SeaName").value
   Mob=document.getElementById("SeaMob").value
